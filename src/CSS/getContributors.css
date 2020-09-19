@@ -1,0 +1,447 @@
+@media only screen and (min-device-width:320px) and (max-device-width:768px) and (orientation: portrait) {
+    .get-contr-container {
+        display: flex;
+        justify-content: space-around;
+        padding: .5em
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-contr-card {
+        background: white;
+        font-size: 1.2em;
+        padding: .5em;
+        border-radius: 5px;
+        height: 11em;
+        width: 16em;
+        text-align: center;
+        font-weight: 600;
+        margin: 0 .5em
+    }
+
+    .contributor-p {
+        color: #0a856e;
+        position: relative;
+        bottom: 1em;
+    }
+
+    .contributors-h2 {
+        color: white;
+        border: 1px solid white;
+        width: 6em;
+        padding: .5em;
+        border-radius: 3px;
+        display: block;
+        margin: 1em
+    }
+
+
+    .p-child {
+        color: rgba(0, 0, 0, .7);
+        font-weight: 600;
+        border: 1px solid #03B897;
+        padding: 0.2em;
+        border-radius: 3px;
+        position: relative;
+        bottom: 1em;
+        right: 0em;
+        margin: 0 1em
+    }
+
+    .contributions {
+        position: relative;
+        left: 2em;
+        top: 8.5em;
+        font-size: .7em;
+        color: rgba(0, 0, 0, .7);
+    }
+
+    .user-pic {
+        height: 3em;
+        position: relative;
+    }
+
+    .contributor-git {
+        font-size: .8em;
+        position: relative;
+        top: 5em;
+        right: 2.6em;
+        color: #03B897;
+    }
+
+    .back-btn {
+        position: relative;
+        cursor: pointer;
+        top: 1em;
+        left: 1.5em;
+        border: 2px solid white;
+        padding: .5em;
+        border-radius: 3px;
+        width: 5em;
+        background: transparent;
+        color: white;
+        font-size: 1em;
+    }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (orientation:landscape) {
+    .get-contr-container {
+        display: flex;
+        justify-content: space-around;
+        padding: .5em
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-contr-card {
+        background: white;
+        font-size: 1.2em;
+        padding: .5em;
+        border-radius: 5px;
+        height: 11em;
+        width: 16em;
+        text-align: center;
+        font-weight: 600;
+        margin: 0 .5em;
+        border: 1px solid #0a856e;
+    }
+
+    .contributor-p {
+        color: #0a856e;
+        position: relative;
+        bottom: 1em;
+    }
+
+    .contributors-h2 {
+        color: #0a856e;
+        border: 1px solid white;
+        width: 6em;
+        padding: .5em;
+        border-radius: 3px;
+        display: block;
+        margin: 1em
+    }
+
+
+    .p-child {
+        color: rgba(0, 0, 0, .7);
+        font-weight: 600;
+        border: 1px solid #03B897;
+        padding: 0.2em;
+        border-radius: 3px;
+        position: relative;
+        bottom: 1em;
+        right: 0em;
+        margin: 0 1em
+    }
+
+    .contributions {
+        position: relative;
+        left: 2em;
+        top: 8.5em;
+        font-size: .7em;
+        color: rgba(0, 0, 0, .7);
+    }
+
+    .user-pic {
+        height: 3em;
+        position: relative;
+    }
+
+    .contributor-git {
+        font-size: .8em;
+        position: relative;
+        top: 5em;
+        right: 2.6em;
+        color: #03B897;
+    }
+
+    .back-btn {
+        position: relative;
+        cursor: pointer;
+        top: 1em;
+        left: 1.5em;
+        border: 2px solid #03B897;
+        padding: .5em;
+        border-radius: 3px;
+        width: 5em;
+        background: transparent;
+        color: #03B897;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait) {
+    .get-contr-container {
+        display: flex;
+        justify-content: space-around;
+        padding: .5em
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-contr-card {
+        background: white;
+        font-size: 1.2em;
+        padding: .5em;
+        border-radius: 5px;
+        height: 11em;
+        width: 16em;
+        text-align: center;
+        font-weight: 600;
+        margin: 0 .5em
+    }
+
+    .contributor-p {
+        color: #0a856e;
+        position: relative;
+        bottom: 1em;
+    }
+
+    .contributors-h2 {
+        color: white;
+        border: 1px solid white;
+        width: 6em;
+        padding: .5em;
+        border-radius: 3px;
+        display: block;
+        margin: 1em
+    }
+
+
+    .p-child {
+        color: rgba(0, 0, 0, .7);
+        font-weight: 600;
+        border: 1px solid #03B897;
+        padding: 0.2em;
+        border-radius: 3px;
+        position: relative;
+        bottom: 1em;
+        right: 0em;
+        margin: 0 1em
+    }
+
+    .contributions {
+        position: relative;
+        left: 2em;
+        top: 8.5em;
+        font-size: .7em;
+        color: rgba(0, 0, 0, .7);
+    }
+
+    .user-pic {
+        height: 3em;
+        position: relative;
+    }
+
+    .contributor-git {
+        font-size: .8em;
+        position: relative;
+        top: 5em;
+        right: 2.6em;
+        color: #03B897;
+    }
+    .back-btn {
+        position: relative;
+        cursor: pointer;
+        top: 1em;
+        left: 1.5em;
+        border: 2px solid white;
+        padding: .5em;
+        border-radius: 3px;
+        width: 5em;
+        background: transparent;
+        color: white;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .get-contr-container {
+        display: flex;
+        justify-content: space-around;
+        padding: .5em
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-contr-card {
+        background: white;
+        font-size: 1.2em;
+        padding: .5em;
+        border-radius: 5px;
+        height: 11em;
+        width: 16em;
+        text-align: center;
+        font-weight: 600;
+        margin: 0 .5em
+    }
+
+    .contributor-p {
+        color: #0a856e;
+        position: relative;
+        bottom: 1em;
+    }
+
+    .contributors-h2 {
+        color: white;
+        border: 1px solid white;
+        width: 6em;
+        padding: .5em;
+        border-radius: 3px;
+        display: block;
+        margin: 1em
+    }
+
+
+    .p-child {
+        color: rgba(0, 0, 0, .7);
+        font-weight: 600;
+        border: 1px solid #03B897;
+        padding: 0.2em;
+        border-radius: 3px;
+        position: relative;
+        bottom: 1em;
+        right: 0em;
+        margin: 0 1em
+    }
+
+    .contributions {
+        position: relative;
+        left: 2em;
+        top: 8.5em;
+        font-size: .7em;
+        color: rgba(0, 0, 0, .7);
+    }
+
+    .user-pic {
+        height: 3em;
+        position: relative;
+    }
+
+    .contributor-git {
+        font-size: .8em;
+        position: relative;
+        top: 5em;
+        right: 2.6em;
+        color: #03B897;
+    }
+    .back-btn {
+        position: relative;
+        cursor: pointer;
+        top: 1em;
+        left: 1.5em;
+        border: 2px solid white;
+        padding: .5em;
+        border-radius: 3px;
+        width: 5em;
+        background: transparent;
+        color: white;
+        font-size: 1em;
+    }
+}
+
+@media (min-width:1024px) {
+    .get-contr-container {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        bottom: 2em;
+        padding: .5em;
+    }
+
+    .get-contr-card {
+        background: white;
+        font-size: 1.8em;
+        padding: .5em;
+        border-radius: 5px;
+        height: 6em;
+        width: 60vw;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 2.5em
+    }
+
+    .contributor-p {
+        color: #0a856e;
+        color: #0a856e;
+        position: relative;
+        bottom: 3em;
+    }
+
+    .contributors-h2 {
+        color: white;
+        border: 1px solid white;
+        width: 6em;
+        padding: .5em;
+        border-radius: 3px;
+        display: block;
+        margin: 1em
+    }
+
+    .p-child {
+        color: rgba(0, 0, 0, .7);
+        font-weight: 600;
+        border: 1px solid #03B897;
+        margin: 0 13em;
+        padding: 0.2em;
+        border-radius: 3px;
+        position: relative;
+        bottom: 3em;
+
+    }
+
+    .contributions {
+        position: relative;
+        right: 14em;
+        top: 1.5em;
+        font-size: .7em;
+        color: rgba(0, 0, 0, .7);
+    }
+
+    .user-pic {
+        height: 3em;
+        position: relative;
+        right: 7em;
+    }
+
+    .contributor-git {
+        font-size: .8em;
+        position: relative;
+        top: 1.5em;
+        right: 10.2em;
+        color: #03B897;
+    }
+
+    .back-btn {
+        position: relative;
+        cursor: pointer;
+        top: 9em;
+        left: 18em;
+        border: 2px solid white;
+        padding: .5em;
+        border-radius: 3px;
+        width: 8em;
+        background: transparent;
+        color: white;
+        font-size: 1em;
+        z-index:1000;
+    }
+}

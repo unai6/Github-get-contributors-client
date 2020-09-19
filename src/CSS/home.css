@@ -1,0 +1,113 @@
+
+@media only screen and (min-device-width:320px) and (max-device-width:768px) and (orientation: portrait) {
+    .view {
+        margin: 0;
+        background-image: url('https://cdn.pixabay.com/photo/2017/08/05/11/24/logo-2582757_960_720.png');
+        background-size: contain;
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .layer {
+        margin: 0;
+        background-color: #2ABB9B;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        border: 30px solid white
+    }
+
+    .mainTitle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3em;
+        font-family: 'Spartan', sans-serif;
+        color: white;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        border: solid 1px white;
+        border-radius: 5px;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .github-pic {
+        display: none;
+    }
+}
+
+@media (min-width:1024px) {
+    .view {
+        margin: 0;
+        background-image: url('https://cdn.pixabay.com/photo/2017/08/05/11/24/logo-2582757_960_720.png');
+        background-size: contain;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+    }
+
+    .layer {
+        margin: 0;
+        background-color: #2ABB9B;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        border: 30px solid white
+    }
+
+    .mainTitle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 9em;
+        font-family: 'Spartan', sans-serif;
+        color: rgba(0, 0, 0, 0.7);
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        border: solid 1px white;
+        border-radius: 5px;
+        padding: .5em
+    }
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .github-pic {
+        height: 5em;
+        position: relative;
+        left: 15em;
+        top: 2em;
+    }
+
+}
