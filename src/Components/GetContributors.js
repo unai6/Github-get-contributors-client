@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getContributors } from '../api/apiCalls';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../CSS/appContainer.css';
 import '../CSS/getContributors.css';
 import '../CSS/form-css.css'
@@ -11,23 +11,23 @@ export const GetContributors = () => {
     const [owner, setOwner] = useState('');
     const [repo, setRepo] = useState('');
     const [infoSent, setInfoSent] = useState(false);
-   
+
 
     useEffect(() => {
         async function fetchData() {
-            try{
+            try {
                 const result = await getContributors();
-                if(!result.data.message) {
+                if (!result.data.message) {
                     setInfoSent(true)
                     setData(result.data);
-                } else{
+                } else {
                     setData([...result])
                     setInfoSent(false)
                 }
                 console.log(result)
-            } catch(error){
+            } catch (error) {
                 console.log(error)
-                
+
             }
         }
         fetchData()
@@ -39,7 +39,7 @@ export const GetContributors = () => {
             {
                 !infoSent ?
                     <div>
-                    <h2 className='contributors-h2'>Search Github Repository</h2>
+                        <h2 className='contributors-h2'>Search Github Repository</h2>
                         <form className='form'>
                             <input
                                 value={owner}
@@ -59,8 +59,8 @@ export const GetContributors = () => {
                                 name="repo"
                                 required
                             />
-                           
-        
+
+
                             <button className='btn-search'>Search Contributors</button>
                         </form>
                     </div>
@@ -68,7 +68,7 @@ export const GetContributors = () => {
                     :
 
                     <div>
-                    <Link><button className='back-btn' onClick={() => setInfoSent(false)}>go back</button></Link>
+                        <Link><button className='back-btn' onClick={() => setInfoSent(false)}>go back</button></Link>
                         <h2 className='contributors-h2'>Contributors</h2>
                         {
 
@@ -76,9 +76,9 @@ export const GetContributors = () => {
 
                                 data.map((item, index) => {
                                     return (
-                                        <div  key={index} className='get-contr-container'>
+                                        <div key={index} className='get-contr-container'>
                                             <div className='get-contr-card'>
-                                                <img className='user-pic' src={item.avatar_url} alt='user-pic'/>
+                                                <img className='user-pic' src={item.avatar_url} alt='user-pic' />
                                                 <span className='contributions'>{item.contributions} contributions</span>
                                                 <span className='contributor-git'><a className='contributor-git' href={`${item.html_url}`}>Contributor's Github</a></span>
                                                 <p className='contributor-p'>Github User</p>
