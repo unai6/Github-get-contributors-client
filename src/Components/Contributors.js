@@ -11,10 +11,10 @@ export const Contributors = ({ data }) => {
                     return (
                         <div key={index} className='d-flex flex-column justify-content-center align-content-center text-center border-1 border-white'>
                                 <img className='user-pic d-block mx-auto' src={item.avatar_url} alt='user-pic' />
-                                <span className='text-white'>{item.contributions} contributions</span>
+                                <span className='text-user--info'>{item.contributions} contributions</span>
                                 <span className=''><a className='' href={item.html_url}>Contributor's Github</a></span>
-                                <p className='text-white'>Github User</p>
-                                <p className='text-white'>{item.login}</p>
+                                <p className='text-user--info'>Github User</p>
+                                <p className='text-user--info'>{item.login}</p>
                         </div>
 
                     );

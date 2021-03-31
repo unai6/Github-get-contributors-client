@@ -5,6 +5,13 @@
     }
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-height:600px) and (orientation:landscape) {
+    .app-container {
+        background: #03B897;
+        min-height: 100vh !important;
+    }
+}
+
 @media only screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait) {
     .app-container {
         background: #03B897;
@@ -18,7 +25,8 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .app-container {
         background: #03B897;
-        min-height: 100% !important;
+        min-height: 100%;
+        width: 100%;
     }
 }
 
@@ -26,7 +34,7 @@
     .app-container {
         background: #03B897;
         position: absolute;
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        min-height: 100%;
     }
 }
